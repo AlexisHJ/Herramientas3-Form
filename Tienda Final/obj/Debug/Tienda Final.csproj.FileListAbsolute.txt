@@ -1,0 +1,31 @@
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\bin\Debug\Tienda Final.exe.config
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\bin\Debug\Tienda Final.exe
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\bin\Debug\Tienda Final.pdb
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Form1.resources
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Properties.Resources.resources
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda Final.exe
+C:\Users\Administrador\source\repos\Tienda Final\Tienda Final\obj\Debug\Tienda Final.pdb
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\bin\Debug\Tienda Final.exe.config
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\bin\Debug\Tienda Final.exe
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\bin\Debug\Tienda Final.pdb
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Form1.resources
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda Final.exe
+C:\Users\Administrador\Desktop\Tienda Final\Tienda Final\obj\Debug\Tienda Final.pdb
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.exe
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.pdb
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\Tienda Final.exe.config
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\Tienda Final.exe
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\Tienda Final.pdb
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Form1.resources
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Login.resources
