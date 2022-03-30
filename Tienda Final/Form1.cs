@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using Tienda_Final.Models;
 
 namespace Tienda_Final
 {
@@ -17,11 +18,21 @@ namespace Tienda_Final
             InitializeComponent();
         }
 
-        
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("Usado");
+            /*using (CRUDEntities db = new CRUDEntities())
+            {
+                var list = from a in db.TIENDA
+                           select a;
+                dataGridView1.DataSource = list.ToList();
+            
+            
+            
+            
+            }
+            /*comboBox1.Items.Add("Usado");
             comboBox1.Items.Add("Nuevo");
             comboBox4.Items.Add("Domicilio");
             comboBox4.Items.Add("Tienda");
@@ -39,7 +50,7 @@ namespace Tienda_Final
             comboBox2.Items.Add("Memoria RAM");
             comboBox2.Items.Add("Otros");
             comboBox3.Items.Add("Aprobado");
-            comboBox3.Items.Add("Reprobado");
+            comboBox3.Items.Add("Reprobado");*/
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,11 +58,11 @@ namespace Tienda_Final
             int p = dataGridView1.Rows.Add();
             dataGridView1.Rows[p].Cells[0].Value = textBox1.Text;
             dataGridView1.Rows[p].Cells[1].Value = textBox2.Text;
-            dataGridView1.Rows[p].Cells[2].Value = comboBox2.Text;
-            dataGridView1.Rows[p].Cells[3].Value = comboBox1.Text;
-            dataGridView1.Rows[p].Cells[4].Value = comboBox3.Text;
-            dataGridView1.Rows[p].Cells[5].Value = comboBox4.Text;
-            dataGridView1.Rows[p].Cells[6].Value = comboBox5.Text;
+            dataGridView1.Rows[p].Cells[2].Value = textBox3.Text;
+            dataGridView1.Rows[p].Cells[3].Value = textBox4.Text;
+            dataGridView1.Rows[p].Cells[4].Value = textBox5.Text;
+            dataGridView1.Rows[p].Cells[5].Value = textBox6.Text;
+            dataGridView1.Rows[p].Cells[6].Value = textBox7.Text;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -29,3 +29,8 @@ C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debu
 C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.GenerateResource.cache
 C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda_Final.Login.resources
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\Herramientas 2\Tienda Final\Tienda Final\obj\Debug\Tienda Final.csproj.CopyComplete
