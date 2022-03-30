@@ -37,8 +37,12 @@ namespace Tienda_Final
 
                 Form1 pantalla = new Form1();
                     pantalla.Show();
-            
+
+                
             }
+            
         }
+        
+
     }
 }

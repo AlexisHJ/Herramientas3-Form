@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="CRUDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="Tienda2">
+  <EntityType Name="Tienda5">
     <Key>
       <PropertyRef Name="ID" />
     </Key>
-    <Property Name="ID" Type="int" Nullable="false" />
-    <Property Name="Nombre_Cliente" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Cedula_Cliente" Type="int" Nullable="false" />
-    <Property Name="Tipo_Producto" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Estado_Producto" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Producto" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Sitio" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="IVA" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Cliente" Type="varchar" MaxLength="50" />
+    <Property Name="Cedula_Cliente" Type="varchar" MaxLength="50" />
+    <Property Name="Tipo_Producto" Type="varchar" MaxLength="50" />
+    <Property Name="Estado_Producto" Type="varchar" MaxLength="50" />
+    <Property Name="Producto" Type="varchar" MaxLength="50" />
+    <Property Name="Sitio" Type="varchar" MaxLength="50" />
+    <Property Name="IVA" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityContainer Name="CRUDModelStoreContainer">
-    <EntitySet Name="Tienda2" EntityType="Self.Tienda2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tienda5" EntityType="Self.Tienda5" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

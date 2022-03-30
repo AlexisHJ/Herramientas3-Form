@@ -5,52 +5,52 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="CRUDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="Tienda2">
+        <EntityType Name="Tienda5">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Name="ID" Type="int" Nullable="false" />
-          <Property Name="Nombre_Cliente" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Cedula_Cliente" Type="int" Nullable="false" />
-          <Property Name="Tipo_Producto" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Estado_Producto" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Producto" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Sitio" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="IVA" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre_Cliente" Type="varchar" MaxLength="50" />
+          <Property Name="Cedula_Cliente" Type="varchar" MaxLength="50" />
+          <Property Name="Tipo_Producto" Type="varchar" MaxLength="50" />
+          <Property Name="Estado_Producto" Type="varchar" MaxLength="50" />
+          <Property Name="Producto" Type="varchar" MaxLength="50" />
+          <Property Name="Sitio" Type="varchar" MaxLength="50" />
+          <Property Name="IVA" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityContainer Name="CRUDModelStoreContainer">
-          <EntitySet Name="Tienda2" EntityType="Self.Tienda2" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tienda5" EntityType="Self.Tienda5" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="CRUDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Tienda2">
+        <EntityType Name="Tienda5">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" />
-          <Property Name="Nombre_Cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Cedula_Cliente" Type="Int32" Nullable="false" />
-          <Property Name="Tipo_Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Estado_Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Sitio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="IVA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre_Cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Cedula_Cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Tipo_Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Estado_Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Producto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Sitio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="IVA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="CRUDEntities2" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Tienda2" EntityType="Self.Tienda2" />
+        <EntityContainer Name="CRUDEntities5" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Tienda5" EntityType="Self.Tienda5" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="CRUDModelStoreContainer" CdmEntityContainer="CRUDEntities2">
-          <EntitySetMapping Name="Tienda2">
-            <EntityTypeMapping TypeName="CRUDModel.Tienda2">
-              <MappingFragment StoreEntitySet="Tienda2">
+        <EntityContainerMapping StorageEntityContainer="CRUDModelStoreContainer" CdmEntityContainer="CRUDEntities5">
+          <EntitySetMapping Name="Tienda5">
+            <EntityTypeMapping TypeName="CRUDModel.Tienda5">
+              <MappingFragment StoreEntitySet="Tienda5">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Nombre_Cliente" ColumnName="Nombre_Cliente" />
                 <ScalarProperty Name="Cedula_Cliente" ColumnName="Cedula_Cliente" />

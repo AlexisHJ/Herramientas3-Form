@@ -13,10 +13,10 @@ namespace Tienda_Final.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CRUDEntities2 : DbContext
+    public partial class CRUDEntities5 : DbContext
     {
-        public CRUDEntities2()
-            : base("name=CRUDEntities2")
+        public CRUDEntities5()
+            : base("name=CRUDEntities5")
         {
         }
     
@@ -25,6 +25,6 @@ namespace Tienda_Final.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Tienda2> Tienda2 { get; set; }
+        public virtual DbSet<Tienda5> Tienda5 { get; set; }
     }
 }

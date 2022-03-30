@@ -12,11 +12,11 @@ namespace Tienda_Final.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Tienda2
+    public partial class Tienda5
     {
         public int ID { get; set; }
         public string Nombre_Cliente { get; set; }
-        public int Cedula_Cliente { get; set; }
+        public string Cedula_Cliente { get; set; }
         public string Tipo_Producto { get; set; }
         public string Estado_Producto { get; set; }
         public string Producto { get; set; }
