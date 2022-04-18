@@ -43,7 +43,7 @@ namespace Tienda_Final
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(25, 40);
+            this.label1.Location = new System.Drawing.Point(25, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace Tienda_Final
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(25, 139);
+            this.label2.Location = new System.Drawing.Point(25, 191);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace Tienda_Final
             // txtusuario
             // 
             this.txtusuario.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtusuario.Location = new System.Drawing.Point(28, 84);
+            this.txtusuario.Location = new System.Drawing.Point(28, 156);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(286, 20);
             this.txtusuario.TabIndex = 2;
@@ -71,7 +71,7 @@ namespace Tienda_Final
             // txtcontrasena
             // 
             this.txtcontrasena.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtcontrasena.Location = new System.Drawing.Point(28, 198);
+            this.txtcontrasena.Location = new System.Drawing.Point(28, 225);
             this.txtcontrasena.Name = "txtcontrasena";
             this.txtcontrasena.PasswordChar = '*';
             this.txtcontrasena.Size = new System.Drawing.Size(286, 20);
@@ -92,9 +92,9 @@ namespace Tienda_Final
             // 
             this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Location = new System.Drawing.Point(390, 40);
+            this.groupBox1.Location = new System.Drawing.Point(378, 94);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(225, 231);
+            this.groupBox1.Size = new System.Drawing.Size(226, 211);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -104,7 +104,7 @@ namespace Tienda_Final
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(641, 354);
+            this.ClientSize = new System.Drawing.Size(640, 317);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.txtcontrasena);
