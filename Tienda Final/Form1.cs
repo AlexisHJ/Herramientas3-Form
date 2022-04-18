@@ -72,26 +72,37 @@ namespace Tienda_Final
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Refrescar();
-            using (CRUDEntities5 db = new CRUDEntities5())
+            try
             {
-                if (ID == null)
-                    Otabla = new Tienda5();
-                Otabla.Nombre_Cliente = textBox1.Text;
-                Otabla.Cedula_Cliente = textBox2.Text;
-                Otabla.Tipo_Producto = textBox3.Text;
-                Otabla.Estado_Producto = textBox4.Text;
-                Otabla.Producto = textBox5.Text;
-                Otabla.Sitio = textBox6.Text;
-                Otabla.IVA = textBox7.Text;
-
-                if(ID == null)
-                    db.Tienda5.Add(Otabla);
-                else
+                Refrescar();
+                using (CRUDEntities5 db = new CRUDEntities5())
                 {
-                    db.Entry(Otabla).State = System.Data.Entity.EntityState.Modified;
+                    if (ID == null)
+                        Otabla = new Tienda5();
+                    Otabla.Nombre_Cliente = textBox1.Text;
+                    Otabla.Cedula_Cliente = textBox2.Text;
+                    Otabla.Tipo_Producto = textBox3.Text;
+                    Otabla.Estado_Producto = textBox4.Text;
+                    Otabla.Producto = textBox5.Text;
+                    Otabla.Sitio = textBox6.Text;
+                    Otabla.IVA = textBox7.Text;
+
+                    if (ID == null)
+                        db.Tienda5.Add(Otabla);
+                    else
+                    {
+                        db.Entry(Otabla).State = System.Data.Entity.EntityState.Modified;
+                    }
+                    db.SaveChanges();
+
+
                 }
-                db.SaveChanges();
+
+            }
+            catch
+            {
+                MessageBox.Show("INGRESA POR FAVOR VALORES VALIDOS");
+
             }
         }
 
@@ -149,7 +160,9 @@ namespace Tienda_Final
                 edit.ShowDialog();
 
                 Refrescar();
+                this.Hide();
             }
+            
         }
     }
 }
